@@ -113,3 +113,20 @@ CLOCK
     color:#999;
 }
 
+/*
+=================================================
+POST-IT NOTE
+=================================================
+*/
+#note{
+  width:250px;
+  height:250px;
+  resize: none;
+  background:#F3F19D;
+  padding:15px;
+  border:none;
+  position: absolute;
+  bottom:50px;
+  left:50px;
+  font-family:sans-serif;
+}

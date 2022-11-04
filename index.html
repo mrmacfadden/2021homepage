@@ -18,7 +18,7 @@
 
 
 
-        <script src="myScripts.js"></script>
+        
 
     </head>
     <body onload="startTime()">
@@ -57,8 +57,13 @@
                 <a href="https://www.photopea.com/" target="_blank">
                     <i class="far fa-image"></i>
                 </a>
+                <a href="">
+                    <i class="far fa-sticky-note"></i>
+                </a>    
             </section>
 
+
+            <textarea placeholder="Write a note..." id="note" onkeyup="autoSave()"></textarea>
             
 
             
@@ -69,6 +74,7 @@
 
 
         <div id="clock"></div>
-
+        
+        <script src="myScripts.js"></script>
     </body>
 </html>
